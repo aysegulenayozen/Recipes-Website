@@ -1,0 +1,92 @@
+.logo{
+    border: 0px;
+    border-radius: 100px;
+    margin-left: 7px;
+}
+
+.nav-link{
+    font-size: 25px;
+    color: #30588a;
+    display: block;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-link:hover{
+    text-decoration:solid;
+    color: rgb(60, 60, 60);
+}
+
+.jumbotron{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button-clr{
+    border: 0px;
+    border-radius: 100px;
+    color: white;
+    background-color: rgb(97, 172, 197);
+}
+
+
+.li-items{
+    list-style-type:none;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto auto auto;
+    text-decoration: none;
+    max-width: 220px;
+    margin-left: 705px;
+}
+
+.end{
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-group{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.text-food{
+    margin: 5px;
+}
+
+.title-f{
+    margin-top: 10px;
+}
+
+/**CONTACT**/
+
+.form-title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    color: #30588a;
+}
+
+.contact-form{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-control{
+    resize: none;
+}
+
+.square-button{
+    border-radius: 10px;
+    border: 0px;
+    background-color: #30588a;
+    color: white;
+    left: 70%;
+    width: 50px;
+    height: 30px;
+}
